@@ -6,9 +6,6 @@ public class MethodDemo {
 		// TODO Auto-generated method stub
 
 		sum();
-		sum();
-		sum();
-
 		close();
 		
 	}
