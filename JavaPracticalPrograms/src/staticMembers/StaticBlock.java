@@ -11,7 +11,6 @@ class staticblockex
 		System.out.println("this is static block");
 		System.out.println("x val" +x);
 		staticmethod();
-		
 	}
 	public static void staticmethod()
 	{
@@ -31,7 +30,6 @@ class staticblockex
 public class StaticBlock {
 
 	public static void main(String[] args) {
-		
 		
 		staticblockex obj = new staticblockex();
 		
