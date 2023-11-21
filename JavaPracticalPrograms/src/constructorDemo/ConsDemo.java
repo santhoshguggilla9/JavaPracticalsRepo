@@ -3,14 +3,14 @@ package constructorDemo;
 class constructorExample
 {
 	private int x=100;
-	static
-	{
-		//System.out.println(x);
-		System.out.println("static block called");
-	}
+//	static
+//	{
+//		//System.out.println(x);
+//		System.out.println("static block called");
+//	}
 	constructorExample()
 	{
-		System.out.println(x);
+		//System.out.println(x);
 		System.out.println("Constructor Called");
 	}
 	
@@ -26,6 +26,7 @@ public class ConsDemo {
 	public static void main(String[] args) {
 		
 		constructorExample obj=new constructorExample();
+		constructorExample obj1=new constructorExample();
 		//obj.show();
 
 	}
