@@ -2,7 +2,7 @@ package innerClass;
 
 class outerClass {
 	
-    class innerClass {
+    static class innerClass {
         public void display() {
             System.out.println("This is inner class display");
         }
@@ -23,7 +23,8 @@ public class InnerClassDemo {
         // Call show() method on oobj
         oobj.show();
 
-        outerClass.innerClass iobj = oobj.new innerClass();
+        //outerClass.innerClass iobj = oobj. new innerClass(); // non static inner class
+        outerClass.innerClass iobj = new outerClass.innerClass(); // static inner class
         iobj.display();
     }
 }
