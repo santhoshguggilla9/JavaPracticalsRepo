@@ -13,6 +13,8 @@ public class ArraysDemo {
 		System.out.println(x[2]);
 		
 		//System.out.println(x[3]);
+		
+		
 	}
 
 }
