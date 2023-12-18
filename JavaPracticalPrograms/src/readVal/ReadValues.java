@@ -8,10 +8,8 @@ import java.util.Scanner;
 public class ReadValues {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		// TODO Auto-generated method stub
-
-		int age;
 		
+		int age;
 		String name;
 
 //		InputStreamReader isr= new InputStreamReader(System.in);
@@ -24,6 +22,8 @@ public class ReadValues {
 		age= sc.nextInt();
 		
 		//name=br.readLine();
+		sc.nextLine();
+		System.out.println("Enter ur Name:");
 		name=sc.nextLine();
 		
 		System.out.println("your name:" + name);
