@@ -61,7 +61,7 @@ public class ArrayListExample {
 //		cars.set(3, temp);
 		
 		//Collections.reverse(cars);
-		Collections.shuffle(cars);
+		Collections.sort(cars);
 		
 		System.out.println(cars);
 		
