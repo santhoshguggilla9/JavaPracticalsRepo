@@ -8,7 +8,7 @@ public class StringExample {
 		String name = "Santhosh";
 		
 		String sname = "Santhosh";		
-		
+		 
 //		System.out.println("address of name" +name.hashCode());
 //		System.out.println("address of sname" +sname.hashCode());
 		
@@ -19,6 +19,7 @@ public class StringExample {
 //		else
 //			System.out.println("not same");
 		
+	
 		System.out.println(name==sname);
 	}
 }

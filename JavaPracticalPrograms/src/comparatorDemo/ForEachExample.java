@@ -8,16 +8,14 @@ public class ForEachExample {
 
 	public static void main(String[] args) {
 	
+	
 		List<String> names = Arrays.asList("santhosh","raju","kumar","varun","vishu");
 		List<Integer> nums = Arrays.asList(5,6,7,8,2,1);
 		
-//		for(String name : names)
-//		{
-//			System.out.println(name);
-//		}
-		
-		names.forEach(name -> System.out.println(name));
+				
+		names.forEach(s -> System.out.println(s));
 		names.forEach(number -> System.out.println(nums));
+		
 		//System.out.println(names);
 		
 		

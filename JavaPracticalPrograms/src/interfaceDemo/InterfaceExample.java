@@ -2,6 +2,7 @@ package interfaceDemo;
 
 interface animal
 {
+	//abstract methods
 	public void roar();
 	public void bark();
 }
@@ -26,7 +27,6 @@ class dog implements animal
 	@Override
 	public void roar() {
 		// TODO Auto-generated method stub
-		
 	}
 }
 public class InterfaceExample {
